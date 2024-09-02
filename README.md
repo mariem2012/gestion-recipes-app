@@ -1,10 +1,9 @@
-# vue-gestion-tache
+# Gestion Recipes App
 
 ## Description
 
-Gestion Tâche App une application web de gestion des tâches et des projets en utilisant Vue.js 3 et la
-Composition API. La gestion des états est réalisée avec Pinia, et la navigation entre les
-différentes sections (Tâches, Projets) est géré avec Vue Router. L'interface utilisateur
+Gestion Recipes App est une application web qui permet de gérer vos recettes de cuisine en utilisant Vue.js 3, Pinia pour la gestion d'état,  la navigation entre les
+différentes sections est géré avec Vue Router. L'interface utilisateur
 est stylé avec Bootstrap.
 
 ## Prérequis
@@ -26,13 +25,13 @@ Suivez ces étapes pour configurer le projet sur votre machine locale :
 1. **Clonez le repository :**
 
     ```bash
-    git clone https://github.com/mariem2012/vue-gestion-tache.git
+    git clone https://github.com/mariem2012/gestion-recipes-app.git
     ```
 
 2. **Accédez au dossier du projet :**
 
     ```bash
-    cd vue-gestion-tache
+    cd gestion-recipes-app
     ```
 
 3. **Installez les dépendances :**
@@ -50,23 +49,14 @@ npm run dev
 ```
 ## Les fonctionalités
 
-1. **Taches :** 
+ **Recipes :** 
 
- - addTache : cette fonction permet d'ajouter une tache.
+ - addRecipe : cette fonction permet d'ajouter une tache.
  
- - deleteTache : cette fonction permet d'effacer une tache à partir de son id.
+ - deleteRecipe : cette fonction permet supprimer une recette à partir de son id.
  
- - updateTache :  cette fonction permet de modifier une tache.
-
-2. **Projets :**
-
- - addProjet : cette fonction permet d'ajouter un projet.
-    
- - deleteProjet : cette fonction permet d'effacer un projet à partir de son id.
-
--  updateProjet : cette fonction permet de modifier un projet.
+ - updateRecipe :  cette fonction permet de modifier une recette existante.
 
 ## Authors
- - [Ousmane Ibrahima Ly](https://github.com/Ousmanly)
  - [Mariem Boudallaye Dianifaba](https://github.com/mariem2012)
 
