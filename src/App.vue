@@ -9,7 +9,7 @@ import { RouterView }  from 'vue-router'
     <nav class="navbar navbar-expand-lg custom-navbar bg-dark">
     <div class="container">
       <a class="navbar-brand fw-bold bib" >
-        <RouterLink class="list text-decoration-none text-white me-5 fw-bold" to="/">GestionRecette</RouterLink>
+        <RouterLink class="list text-decoration-none text-white me-5 fw-bold" to="/">Accueil</RouterLink>
       </a>
       
       <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,7 @@ import { RouterView }  from 'vue-router'
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page">
-              <RouterLink class="list text-decoration-none text-white me-5 fw-bold" to="/list">Recette</RouterLink>            
+              <RouterLink class="list text-decoration-none text-white me-5 fw-bold" to="/list">Recettes</RouterLink>            
             </a>
           </li>
         </ul>

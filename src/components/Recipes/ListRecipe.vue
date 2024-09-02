@@ -1,12 +1,12 @@
 <template>
-  <div class="container mt-5 bg-info">
+  <div class="container mt-5">
     <RouterLink
       class="list text-decoration-none text-white me-5 fw-bold"
       to="/ajout"
       
     >
       <button
-        class="clr btn text-white mt-5 mb-4 fw-bold"
+        class="clr btn text-white mt-5 mb-4 fw-bold bg-success"
         v-if="affichebtn"
         @click="maskBtn"
       >

@@ -6,14 +6,26 @@ export const useRecipeStore = defineStore("recipeStore", {
     recipes: [
       {
         id : 1,
-        titre: "README",
-        ingredient: "redaction du fichier",
+        titre: "Riz au poisson",
+        ingredient: "riz, poisson, huile, legumes",
         type: "Plat",
+      },
+      {
+        id : 2,
+        titre: "Salade de fruits",
+        ingredient: "kiwi, ananas, mangue, banane",
+        type: "Entrée",
+      },
+      {
+        id : 3,
+        titre: "Crêpes au nutella",
+        ingredient: "Oeuf, farine, beurre, lait",
+        type: "Dessert",
       },
     ],
     
-    nextId: 2,
-    nextIdP :3
+    nextId: 4,
+    nextIdP :5
   }),
 
   actions: {

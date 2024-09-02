@@ -10,11 +10,11 @@
 
 <style scoped>
     .page-background {
-    /* background-image: url('@/assets/todo.png'); */
+    background-image: url('../assets/accueil.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
-    min-height: 100vh; 
+    min-height: 90vh; 
     color: #fff; 
     }
     @media (max-width: 768px) {
